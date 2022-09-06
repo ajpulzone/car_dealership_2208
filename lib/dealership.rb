@@ -17,6 +17,14 @@ class Dealership
     else
       true
     end
-  end 
+  end
 
+  # def cars_by_make
+  # end
+  #This method will be problematic due to issues with make
+
+  def total_value
+    @inventory.
+
+  end
 end
