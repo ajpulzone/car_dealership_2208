@@ -1,5 +1,5 @@
 class Dealership
-  attr_reader :inventory, :inventory_count
+  attr_reader :inventory, :inventory_count, :add_car
 
   def initialize(inventory, inventory_count)
     @inventory = []
@@ -8,6 +8,9 @@ class Dealership
 
   def add_car(car)
     @inventory << car
+    @inventory_count += 1
   end
+
+
 
 end
